@@ -53,30 +53,30 @@ int main(){
 
 
 		else if (opcion == 3){
-		printf("ingrese el primer numero a dividir: ");
-		scanf("%li", &num1);
+			printf("ingrese el primer numero a dividir: ");
+			scanf("%li", &num1);
 
-		printf("ingrese el segundo numero a dividir: ");
-		scanf("%li", &num2);
+			printf("ingrese el segundo numero a dividir: ");
+			scanf("%li", &num2);
 
-		dividir = num1 / num2;
+			dividir = num1 / num2;
 
-		printf("La division es: %li", dividir);
+			printf("La division es: %li", dividir);
 
 
 		}
 
 
 		else if (opcion == 4){
-		printf("ingrese el primer numero a multiplicar: ");
-		scanf("%li", &num1);
+			printf("ingrese el primer numero a multiplicar: ");
+			scanf("%li", &num1);
 
-		printf("ingrese el segundo numero a multiplicar: ");
-		scanf("%li", &num2);
+			printf("ingrese el segundo numero a multiplicar: ");
+			scanf("%li", &num2);
 
-		multiplicacion = num1*num2;
+			multiplicacion = num1*num2;
 
-		printf("La multiplicacion es: %li", multiplicacion);
+			printf("La multiplicacion es: %li", multiplicacion);
 
 		}
 
